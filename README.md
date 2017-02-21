@@ -10,6 +10,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
+[image2]: ./test_images/solidYellowCurve.jpg
+[image3]: ./test_images/processed/solidYellowCurve.jpg
 
 ---
 
@@ -27,13 +29,11 @@ My pipeline consisted of the following steps.
 6. Merge masked image on top of the original image so that the detected lines are now seen on top of the original image
 
 Here are some of the images from my pipeline. First image is the original image.
-![alt text][image1]
+![alt text][image2]
 
-Masked image showing the lanes detected, after extrapolation
-![alt text][image1]
 
 Final image showing the detected lanes on top of the original image
-![alt text][image1]
+![alt text][image3]
 
 Step 5 if the pipeline was the most interesting part of the project. Although the final solution was simple, it required me to 
 go back to basic line geometry to find a good solution.
